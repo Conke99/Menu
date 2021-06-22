@@ -1,0 +1,20 @@
+.choices {
+  display: flex;
+  flex-direction: row;
+}
+
+.choices li {
+  font-size: 1.5rem;
+  margin-left: 2.5rem;
+  margin-top: 2.5rem;
+  list-style-type: none;
+  color: chocolate;
+  padding: 5px 5px 5px 5px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.choices li:hover {
+  background-color: chocolate;
+  color: white;
+}
